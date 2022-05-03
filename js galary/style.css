@@ -1,0 +1,54 @@
+div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+}
+img{
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+#btn1{
+    background-image: url(./images/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#btn2{
+    background-image: url(./images/foto2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#btn3{
+    background-image: url(./images/foto3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.btn{
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(23, 107, 83);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(7, 69, 52);
+}

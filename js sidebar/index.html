@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainbox" onclick="openFunction()">&#9776; </div>
+    <div id="menu" class="sidemenu">
+        <ul>
+        <li><a href="">Home</a></li>
+        <li><a href=""> History</a></li>
+        <li><a href="">People</a></li>
+        <li><a href="">Liked videos</a></li>
+        <li><a href="">Watch leter</a></li>
+        <a href="" class="closebtn" onclick="closeFunction()">&times;</a>
+        </ul>
+    </div>
+    <script>
+        function openFunction(){
+            document.getElementById("menu").style.width="300px";
+            document.getElementById("mainbox").style.marginLeft="300px";
+            document.getElementById("mainbox").innerHTML="";
+
+        }
+        function closeFunction(){
+            document.getElementById("menu").style.width="0px";
+            document.getElementById("mainbox").style.marginLeft="0px";
+            document.getElementById("mainbox").innerHTML="&#9776; ";
+        }
+    </script>
+</body>
+</html>
